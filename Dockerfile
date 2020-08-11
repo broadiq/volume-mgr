@@ -2,7 +2,7 @@ FROM anapsix/alpine-java:8_jdk
 
 MAINTAINER John S. Lutz <jlutz@broadiq.com>
 
-ENV SERVER_PORT 80
+ENV SERVER_PORT 8078
 
 VOLUME /exports
 ADD NfsManager-0.0.1-SNAPSHOT.jar app.jar
