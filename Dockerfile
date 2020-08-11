@@ -4,6 +4,8 @@ MAINTAINER John S. Lutz <jlutz@broadiq.com>
 
 ENV SERVER_PORT 8078
 
+RUN mkdir /tmp-briq
+
 VOLUME /exports
 ADD NfsManager-0.0.1-SNAPSHOT.jar app.jar
 
